@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f9;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Google Sans",roboto,"Noto Sans Myanmar Ui",arial,sans-serif;
+}
+main{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo{
+    width: 100px;
+}
+.first{
+    display: grid;
+}
+.h1{
+    font-size: 45px;
+}
+.btn1{
+    line-height: 2.9;
+}
+.second{
+    padding-top: 10em;
+}
+input{
+    padding:  20px 0;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(35, 82, 236);
+}
+.final{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 2em;
+}
+.forge2{
+    font-size: 15px;
+}
+.final button{
+    background-color: rgb(35, 82, 236);
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    color: #fff;
+}
+footer{
+    display: flex;
+}
+span{
+    justify-content: flex-start;
+}
+ul li{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+} 
+li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+

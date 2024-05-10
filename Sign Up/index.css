@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f9;
+    font-family: "Google Sans",roboto,"Noto Sans Myanmar Ui",arial,sans-serif;
+}
+main{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 30px;
+    padding: 1em 2em;
+    gap: 3em;
+}
+.container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+}
+.h1{
+    font-family:"Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;;
+    font-size: 2.3em;
+    font-weight: 100;
+}
+img{
+    width: 75px;
+}
+.btn1 form{
+    padding-top: 4.2em;
+}
+
+input{
+    font-size: 16px;
+    width: 90%;
+    padding: 1.2em 1.5em;
+    margin-top: 1.4em;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5em;
+}
+button{
+    background-color: rgb(35, 82, 236);
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    cursor: pointer;
+}
+.lang{
+    margin-right: 50em;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;  
+}
+li a{
+    color: #000;
+    text-decoration: none;
+}
